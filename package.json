@@ -1,0 +1,12 @@
+{
+  "name": "aws-cloudvault-project",
+  "version": "1.0.0",
+  "description": "Full-stack Web Application with AWS DynamoDB, S3, and Authentication",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "setup:aws": "cd backend && npm run setup-aws"
+  }
+}
+
